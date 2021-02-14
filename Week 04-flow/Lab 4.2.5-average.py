@@ -5,7 +5,7 @@
 
 numbers = []
 
-number = int(input("Please enter number (0 to quit)): ")) #prompting number entry
+number = int(input("Please enter number (0 to quit): ")) #prompting number entry
 
 while number != 0:
     numbers.append(number) # appending numbers to the list
