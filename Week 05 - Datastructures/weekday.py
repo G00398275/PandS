@@ -12,4 +12,4 @@ elif (today.strftime ("%w")) == 6: # strftime %w gives current day in number for
     print ("It's the weekend!") 
 else: 
     print ("Unfortunately it's a weekday, get out of bed!") 
-# If strftime not equal to 0 or "Saturday", it's a weekday
+# If strftime not equal to 6 or "Sunday", it's a weekday
